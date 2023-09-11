@@ -10,7 +10,7 @@
 <body>
     <header>
         <div class="menu container">
-            <a href="#" class="logo">Logo</a>
+            <a href="#" class="logo"><img src="img/visual.png" alt="" width="80px"></a>
             <input type="checkbox" id="menu">
             <label for="menu">
                 <img src="img/menu-btn.png" class="menu-icono" alt="">
@@ -18,80 +18,83 @@
             <nav class="navbar">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#utilities">Utilities</a></li>
+                    <li><a href="#enlaces">Contact</a></li>
                 </ul>
             </nav>
         </div>
 
         <div class="header-content container">
             <div class="content">
-                <h1>Lorem, ipsum dolor.</h1>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <a href="#" class="btn-1">Mas Información</a>
-                <a href="#" class="btn-1">Mas Información</a>
+                <h1>Visual Studio.</h1>
+                <p>es una suite de herramientas de desarrollo de Microsoft.</p>
+                <a href="https://code.visualstudio.com/" target="_blank" class="btn-1">Mas Información</a>
             </div>
             <img src="img/visual.png" alt="">
         </div>
     </header>
-    <main class="services container">
+    <main class="services container" id="services">
         <div class="service">
             <i class="fa-brands fa-windows"></i>
-            <h3>Service 1</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h3>Windows</h3>
+            <p>
+                Visual Studio es la elección natural para desarrollar aplicaciones para la plataforma Windows, ya sean aplicaciones de escritorio (Windows Forms, WPF), aplicaciones web (ASP.NET), aplicaciones móviles (Xamarin), o juegos (Unity).
+            </p>
         </div>
         <div class="service">
             <i class="fa-brands fa-apple"></i>
-            <h3>Service 2</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h3>Apple</h3>
+            <p>
+                Visual Studio for Mac permite desarrollar aplicaciones multiplataforma, incluyendo aplicaciones móviles con Xamarin, aplicaciones web con ASP.NET Core y aplicaciones de escritorio.
+            </p>
         </div>
         <div class="service">
             <i class="fa-brands fa-linux"></i>
-            <h3>Service 3</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h3>Linux</h3>
+            <p>Visual Studio Code es un editor de código abierto, altamente personalizable y ligero que se ejecuta en Linux, Windows y macOS.</p>
         </div>
     </main>
-    <section class="portfolios container">
+    <section class="portfolios container" id="utilities">
         <div class="portfolio">
-            <img src="img/img1.png" alt="">
+            <img src="img/xamarin2.png" alt="">
             <div class="portfolio-1">
-                <h3>Portfolio 1</h3>
+                <h3>Integración con Xamarin</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita neque laboriosam exercitationem necessitatibus quos maiores dolores omnis, ad esse eaque natus quia ipsa aspernatur tempore quod veniam iusto nemo voluptatem.
+                    Facilita el desarrollo de aplicaciones móviles para iOS y Android utilizando Xamarin, con acceso a herramientas de diseño y pruebas en dispositivos reales y simuladores.
                 </p>
-                <a href="" class="btn-2">Información</a>
+                <a target="_blank" href="https://learn.microsoft.com/es-es/xamarin/tools/ci/" class="btn-2">Información</a>
             </div>
         </div>
         <div class="portfolio">
             <div class="portfolio-2">
-                <h3>Portfolio 2</h3>
+                <h3>Integración Profunda de .NET</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita neque laboriosam exercitationem necessitatibus quos maiores dolores omnis, ad esse eaque natus quia ipsa aspernatur tempore quod veniam iusto nemo voluptatem.
+                    Visual Studio ofrece una integración perfecta con el ecosistema .NET, lo que facilita el desarrollo de aplicaciones .NET y C#.
                 </p>
-                <a href="" class="btn-2">Información</a>
+                <a href="https://learn.microsoft.com/es-es/dotnet/core/tutorials/with-visual-studio-code?pivots=dotnet-7-0" class="btn-2" target="_blank">Información</a>
             </div>
-            <img src="img/img2.png" alt="">
+            <img src="img/net-removebg-preview.png" alt="">
         </div>
         <div class="portfolio">
-            <img src="img/img3.png" alt="">
+            <img src="img/dep.png" alt="">
             <div class="portfolio-1">
-                <h3>Portfolio 3</h3>
+                <h3>Potentes Herramientas de Depuración</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita neque laboriosam exercitationem necessitatibus quos maiores dolores omnis, ad esse eaque natus quia ipsa aspernatur tempore quod veniam iusto nemo voluptatem.
+                    Visual Studio proporciona herramientas de depuración de clase mundial que facilitan la identificación y corrección de errores en el código.
                 </p>
-                <a href="" class="btn-2">Información</a>
+                <a href="https://learn.microsoft.com/es-es/visualstudio/debugger/debugger-feature-tour?view=vs-2022" class="btn-2" target="_blank">Información</a>
             </div>
         </div>
-        <div class="portfolio">
+        <div class="portfolio" style="padding-top: 6%;">
             <div class="portfolio-2">
-                <h3>Portfolio 4</h3>
+                <h3>Desarrollo Web y Cloud</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita neque laboriosam exercitationem necessitatibus quos maiores dolores omnis, ad esse eaque natus quia ipsa aspernatur tempore quod veniam iusto nemo voluptatem.
+                    Visual Studio Code es especialmente popular para el desarrollo web y la creación de aplicaciones en la nube, con extensiones para tecnologías como Node.js, JavaScript, Python y más.
                 </p>
-                <a href="" class="btn-2">Información</a>
+                <a href="https://visualstudio.microsoft.com/es/vs/cloud-connected/" target="_blank" class="btn-2">Información</a>
             </div>
-            <img src="img/img4.png" alt="">
+            <img src="img/nube.png" alt="">
         </div>
     </section>
 
@@ -100,24 +103,25 @@
             <div class="info">
                 <div class="info-content">
                     <div class="info-price">
-                        <h2>Costo</h2>
-                        <p class="price">$3500</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt tempora incidunt doloribus, distinctio tempore reprehenderit amet fuga a consequatur error. Et voluptatum dicta nostrum velit voluptatibus maxime deserunt culpa magnam?</p>
+                        <h2>Herramientas de Depuración y Productividad</h2>
+                        <p>
+                            Visual Studio proporciona herramientas de depuración avanzadas, funciones de productividad y una amplia gama de extensiones que mejoran la eficiencia de desarrollo.
+                        </p>
                     </div>
                     <div class="info-txt">
-                        <h2>Pricing List</h2>
+                        <h2>Multiplataforma</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque saepe dolores ut? Repellat at eius ab aut dolorum. Molestiae tenetur numquam atque ratione, reiciendis debitis velit voluptatum recusandae error earum!
+                            Visual Studio es uno de los entornos de desarrollo más populares y ampliamente utilizados en el mundo, especialmente en el ámbito empresarial y para el desarrollo de software en el ecosistema de Microsoft.
                         </p>
-                        <a href="" class="btn-1">Información</a>
+                        <a target="_blank" href="https://code.visualstudio.com/" class="btn-1">Información</a>
                     </div>
                 </div>
                 <hr>
-                <div class="enlaces">
-                    <h3>Logo</h3>
+                <div class="enlaces" id="enlaces">
+                    <h3><img src="img/visual.png" alt="" width="80px"></h3>
                     <div class="enlace">
                         <li><a href="#">Lorem.</a></li>
-                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Lorem.</a></li>
                         <li><a href="#">Lorem.</a></li>
                         <li><a href="#">Lorem.</a></li>
                     </div>

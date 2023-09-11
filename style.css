@@ -6,6 +6,7 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Courier New', Courier, monospace;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -101,18 +102,20 @@ header{
 .btn-1{
     display: inline-block;
     background-color: rgba(170, 177, 255, 0.3);
-    border: 1px solid #aab1ff;
+    border: 1px solid #000;
     margin: 35px 10px 0px 0px;
     padding: 15px 25px;
-    color: #fff;
+    color: #000;
     border-radius: 25px;
 }
 
 .btn-1:hover{
-    background-color: #aab1ff;
+    color: #fff;
+    background-color: #000;
 }
 
 .services{
+    margin-top: 10%;
     padding: 10px 0px;
     display: flex;
     justify-content: space-between;
@@ -141,7 +144,7 @@ header{
 }
 
 .portfolios{
-    padding: 80px 0px;
+    padding: 80px 100px;
     text-align: center;
     color: #0e0e0e;
 }
